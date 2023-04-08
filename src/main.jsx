@@ -4,6 +4,7 @@ import App from './App'
 import './index.css'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import Header from './components/Header/Header'
+import Navbar from './components/Navbar/Navbar'
 
 const router = createBrowserRouter([
   {
@@ -13,6 +14,10 @@ const router = createBrowserRouter([
       {
         path: 'header',
         element: <Header></Header>
+      },
+      {
+        path: 'navbar',
+        element: <Navbar></Navbar>
       }
     ]
   }

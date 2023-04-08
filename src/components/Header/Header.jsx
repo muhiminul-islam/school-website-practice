@@ -3,7 +3,7 @@ import { PhoneIcon, ClockIcon, MapPinIcon, AcademicCapIcon } from '@heroicons/re
 
 const Header = () => {
     return (
-        <div className='flex justify-around mt-7 bg-gray-100'>
+        <div className='flex justify-around mt-7'>
             <div className='flex items-center gap-3'>
                 <AcademicCapIcon className="h-15 w-15 text-orange-500" />
                 <div>
