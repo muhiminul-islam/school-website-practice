@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     return (
-        <div className='flex justify-between items-center mt-5'>
+        <div className='flex justify-between items-center mt-5 mb-5'>
             <div className='text-2xl flex gap-14 ml-44 font-bold'>
-                <Link className='hover:text-rose-600' to='/home'>Home</Link>
+                <Link className='hover:text-rose-600' to='/'>Home</Link>
                 <Link className='hover:text-rose-600' to='/about'>About</Link>
                 <Link className='hover:text-rose-600' to='/classes'>Classes</Link>
                 <Link className='hover:text-rose-600' to='/teachers'>Teachers</Link>
